@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+}
+h1{text-align:center;}
+.material-icons{
+	color:white;
+	font-size:50px;
+}
+
+nav li{
+	list-style-type: none;
+	display:block;
+	 background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+#nav {
+	margin-left:5px;
+	width:3%;
+  padding: 5px;
+   background-color: #8080ff;
+  border: solid 1px #8080c0;
+  border-radius:5px;
+  text-align:center;
+}
+
+
+#panelNav {
+  padding: 50px;
+  display: none;
+  	width:100%;
+  
+}
+
+#panelNav a {
+	text-align: center;
+}

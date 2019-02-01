@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    color: deepskyblue;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: darkblue 1px 1px;
+
+    font-family: 'Lobster', cursive;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.block_produit{
+    width: 200px;
+    display: inline-block;
+    border: 2px solid darkgray;
+    margin-left: 10px;
+   margin-top: 10px;
+
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+    color: deeppink;
+    border: 1px solid antiquewhite;
+    background-color: aliceblue;
+
+}
+#conteneur{
+    background: linear-gradient( hotpink,hotpink,lightskyblue);
+    width: 900px;
+    margin: auto;
+    padding-bottom: 10px;
+    box-shadow: darkblue 6px 6px 30px;
+
+}
+
+label {
+    float:right;
+}
+.prix{
+    position: absolute;
+    width:200px;
+    font-weight: bold;
+}
+
+.erreur{
+    border: 6px red solid;
+}
